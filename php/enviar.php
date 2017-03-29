@@ -12,13 +12,13 @@
   $cuerpo .= 'Mensaje: ' . $mensaje . '<br>';
 
   $destino = 'pablopodgaiz@gmail.com';
-  $asunto = $asuntoUsuario;
+  
 
   $encabezados = 'MIME-Version: 1.0' . "\r\n";
   $encabezados .= 'Content-type:text/html;charset=UTF-8' . "\r\n";
   $encabezados .= 'From: ' . $nombre . ' ' . $apellido . '<' . $mail . '>' . "\r\n"; 
 
-  mail( $destino, $asunto, $cuerpo, $encabezados );
-  header("Location: gracias.html"); 
+  mail( $destino, $cuerpo, $encabezados );
+  header("Location: gracias/gracias.html"); 
 
 ?>

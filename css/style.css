@@ -108,3 +108,8 @@ section {
         body{
           background: #FFFFFF;
         }
+        body.gracias{
+          background: #3F51B5;
+          display: inline-block;
+          padding: 300px;
+        }
