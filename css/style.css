@@ -1,0 +1,110 @@
+body {
+  background: #F5F5F5; }
+
+.white {
+  background: white; }
+
+.navbar {
+  margin-bottom: 0px; }
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: -50px;
+  /*text-align: center;*/
+   }
+
+h3 {
+  color: white; }
+
+section {
+  margin-top: 60px;
+  margin-bottom: 40px;
+   }
+
+/*NAVBAR*/
+.navbar {
+  margin-bottom: 0px;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+   }
+  .navbar div img {
+    margin-left: -32px; }
+  .navbar .navbar-right .btn {
+    background: #f26a21;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #212121;
+    font-weight: 600; }
+  .navbar ul .dropdown-menu {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #212121; }
+    footer {
+  background: #2f3034;
+  opacity: 0.8; }
+  footer h2 {
+    color: #ffffff; }
+
+.ulfooter {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px; }
+  .ulfooter li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none; }
+    .ulfooter li a.active {
+      background-color: #4CAF50;
+      color: white; }
+    .ulfooter li a:hover:not(.active) {
+      background-color: #555;
+      color: white; }
+      nav.redes{
+  text-align: center; }
+  nav.redes ul {
+    list-style: none; }
+    nav.redes ul li {
+      display: inline-block;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background: red;
+      text-align: center;
+      padding: 20px;
+      transition: 0.5s; 
+
+    }
+      nav.redes ul li:hover {
+        transform: scale(1.1); }
+      nav.redes ul li.github {
+        background: #3b5998; }
+      nav.redes ul li.twiteer {
+        background: #00aced; }
+      nav.redes ul li.linkdn {
+        background: #007bb6; }
+      nav.redes ul li.sololearn {
+        background: #dd4b39; }
+      nav.redes ul li.pinterest {
+        background: #cb2027; }
+      nav.redes ul li a {
+        color: white; 
+      }
+        nav.redes ul li a i {
+          line-height: 70px !important;
+          font-size: 60px !important; 
+          padding-bottom: 50px;
+        }
+
+        .listafooter{
+          padding-top: 70px;
+        }
+        body{
+          background: #FFFFFF;
+        }
