@@ -10,6 +10,7 @@ $email_subject = "Contacto desde el sitio web";
 if(!isset($_POST['nombre']) ||
 !isset($_POST['apellido']) ||
 !isset($_POST['email']) ||
+!isset($_POST['telephone']) ||
 !isset($_POST['mensaje'])) {
 
 echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />";
